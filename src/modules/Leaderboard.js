@@ -1,9 +1,9 @@
 export default class Leaderboard {
   constructor() {
-    this.data = [];
+    this.scores = [];
   }
 
   sort() {
-    this.data.sort((a, b) => b.score - a.score);
+    this.scores.sort((a, b) => b.score - a.score);
   }
 }
