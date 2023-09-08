@@ -23,9 +23,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Webpack Template <a name="about-project"></a>
+# 📖 Leadboard <a name="about-project"></a>
 
-This is a simple but useful project where user can add and remove his/her todo tasks. It maintains those tasks in the assending order. User can also mark and complete the completed tasks.
+This is a simple website wich will show the score of diffrent game players. This website preserve the data on server. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,9 +46,8 @@ This is a simple but useful project where user can add and remove his/her todo t
 ### Key Features <a name="key-features"></a>
 
 <ul>
-<li>Add todo</li>
-<li>View all todo</li>
-<li>Remove completed todo.</li>
+<li>Add New Player Score</li>
+<li>Validate Player Informaion</li>
 </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -75,7 +74,7 @@ In order to run this project you need
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:Arslan49sp/todo-list-es6.git
+  git clone git@github.com:Arslan49sp/leadboard-micro.git
 ```
 
 ### Install
@@ -115,7 +114,8 @@ You can deploy this project using:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **Drag and drop functionality**
+- [ ] **Store the Data to server**
+- [ ] **Design page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
