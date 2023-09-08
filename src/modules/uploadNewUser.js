@@ -1,14 +1,14 @@
-import scoresUrl from "./helper.js";
+import scoresUrl from './helper.js';
 
-const postNewScore = async (input) => {
+const uploadNewUser = async (input) => {
   const resp = await fetch(scoresUrl, {
-    method: "POST",
+    method: 'POST',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify(input),
   });
   return resp;
 };
 
-export default postNewScore;
+export default uploadNewUser;

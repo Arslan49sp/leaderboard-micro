@@ -8,9 +8,9 @@ const leadboardCard = (array) => {
         `;
   }
 
-  const table = document.getElementById("tableBody");
+  const table = document.getElementById('tableBody');
 
-  table.innerHTML = array.map((data) => loop(data)).join("");
+  table.innerHTML = array.map((data) => loop(data)).join('');
 };
 
 export default leadboardCard;
