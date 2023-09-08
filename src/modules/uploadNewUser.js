@@ -1,9 +1,7 @@
-import GAME_ID from "./helper.js";
+import scoresUrl from "./helper.js";
 
-const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${GAME_ID}/scores/`;
-
-export const postNewScore = async (input) => {
-  const resp = await fetch(url, {
+const postNewScore = async (input) => {
+  const resp = await fetch(scoresUrl, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -12,3 +10,5 @@ export const postNewScore = async (input) => {
   });
   return resp;
 };
+
+export default postNewScore;

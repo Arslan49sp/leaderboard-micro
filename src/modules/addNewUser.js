@@ -1,4 +1,4 @@
-import { postNewScore } from "./fetchScores.js";
+import postNewScore from "./uploadNewUser";
 const addNewUser = () => {
   const nameInput = document.getElementById("name");
   const scoreInput = document.getElementById("score");
