@@ -7,29 +7,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>LEADBOARD SCORE BOARD</h1>
-    <form action="#" method="post" id="scoreForm">
-      <label for="name">Neme:</label>
-      <input type="text" id="name" required placeholder="Name" />
-      <label for="score">Score:</label>
-      <input type="number" required id="score" placeholder="Score" />
-      <button type="submit" id="submitUser">Submit</button>
-    </form>
-    <div id="errorMessage"></div>
+    <h1>LEADBOARD</h1>
 
-    <!-- score container -->
-    <div id="score-board">
-      <button id="btnRefresh">Refresh</button>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Points</th>
-          </tr>
-        </thead>
-        <tbody id="tableBody"></tbody>
-      </table>
-    </div>
+    <section class="content-container">
+      <!-- score container -->
+      <div id="score-board">
+        <h3>Recent Score:</h3>
+        <button id="btnRefresh">Refresh</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Points</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+
+      <div class="form-container">
+        <h3>Add Your Score</h3>
+        <form action="#" method="post" id="scoreForm">
+          <input type="text" id="name" required placeholder="Name" />
+          <input type="number" required id="score" placeholder="Score" />
+          <button type="submit" id="submitUser">Submit</button>
+        </form>
+        <div id="errorMessage"></div>
+      </div>
+    </section>
     <script type="module" src="index.js"></script>
   </body>
 </html>
