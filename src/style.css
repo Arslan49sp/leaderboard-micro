@@ -56,6 +56,7 @@ th {
 tr:nth-child(even) {
   background-color: #dad3d3;
 }
+
 .content-container {
   display: flex;
   gap: 30px;
