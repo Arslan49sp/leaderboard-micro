@@ -25,7 +25,7 @@
 
 # 📖 Leadboard <a name="about-project"></a>
 
-This is a simple website wich will show the score of diffrent game players. This website preserve the data on server. 
+This is a simple website wich will show the score of diffrent game players. This website preserve the data on server.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,8 +46,8 @@ This is a simple website wich will show the score of diffrent game players. This
 ### Key Features <a name="key-features"></a>
 
 <ul>
-<li>Add New Player Score</li>
-<li>Validate Player Informaion</li>
+<li>Upload player score to server</li>
+<li>Fetch the score card form server</li>
 </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -114,7 +114,7 @@ You can deploy this project using:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **Store the Data to server**
+
 - [ ] **Design page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
